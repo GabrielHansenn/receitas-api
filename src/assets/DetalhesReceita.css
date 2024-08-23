@@ -1,0 +1,14 @@
+#box-receita {
+    background-color: #a1673581; /* Cor de fundo com transparência */
+    border-radius: 60px;                       /* Bordas arredondadas */
+    display: flex;                             /* Ativa o layout flexível */
+    justify-content: center;                   /* Alinha horizontalmente no centro */
+    align-items: center;                       /* Alinha verticalmente no centro */
+    flex-direction: column;                    /* Organiza os itens em uma coluna */
+    padding: 20px;                             /* Espaçamento interno */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);   /* Adiciona uma sombra suave */
+    max-width: 600px;                          /* Largura máxima opcional */
+    width: 100%;                               /* Largura total do container */
+    margin: 0 auto;                           /* Centraliza horizontalmente */
+    border: #000 solid;
+}

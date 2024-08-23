@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+  font-family: "Bebas Neue", sans-serif;
+  background-image: url(img/fundo.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-size: 40px;
+}
+
+h1{
+  color: #fff;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover{
+  transform: scale(1.07);
+  transition: 0.25s;
+  color: #89f56f;
+}
+
+#receitas-lista a{
+  color: #fff;
+  text-decoration: none;
+}
+
+#receitas-lista a:hover{
+  color: #fff;
+  text-decoration: underline;
+}
+
+li{
+  color: #fff;
+}
+
+#box-lista {
+  background-color: #a1673581; /* Cor de fundo com transparência */
+  border-radius: 60px;                       /* Bordas arredondadas */
+  display: flex;                             /* Ativa o layout flexível */
+  justify-content: center;                   /* Alinha horizontalmente no centro */
+  align-items: center;                       /* Alinha verticalmente no centro */
+  flex-direction: column;                    /* Organiza os itens em uma coluna */
+  padding: 20px;                             /* Espaçamento interno */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);   /* Adiciona uma sombra suave */
+  max-width: 600px;                          /* Largura máxima opcional */
+  width: 100%;                               /* Largura total do container */
+  margin: 0 auto;                           /* Centraliza horizontalmente */
+  border: #000 solid;
+}
+
+#box-lista h1 {
+  margin: 0;                                /* Remove a margem padrão */
+}
+
+#box-lista form {
+  width: 100%;                              /* Garante que o formulário ocupe a largura total */
+  display: flex;                            /* Ativa o layout flexível para o formulário */
+  flex-direction: column;                   /* Organiza os itens em uma coluna */
+}
+
+#box-lista form > div {
+  margin-bottom: 0;                        /* Remove o espaço entre os campos */
+}
+
+#box-lista form label {
+  margin-bottom: 5px;                      /* Espaçamento abaixo dos rótulos */
+}
+
+#box-lista form input {
+  margin-bottom: 10px;                     /* Espaçamento abaixo dos campos de entrada */
+}
+
+#box-lista form button {
+  margin-top: 10px;                        /* Espaçamento acima do botão */
+}
+
+
+/* DETALHES RECEITA */
+
+
+p{
+  color: #fff;
+}
+
+/* ADICIONAR RECEITAS */
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 40px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  cursor: pointer;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+button:hover {
+  background-color: #89f56f;
+  transform: scale(1.03);
+  transition: 0.25s;
+}

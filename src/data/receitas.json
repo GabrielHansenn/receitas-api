@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "titulo": "Bolo de Chocolate",
+    "ingredientes": "Farinha, Açúcar, Cacau, Ovos, Manteiga",
+    "modoPreparo": "Misture todos os ingredientes e asse por 30 minutos."
+  },
+  {
+    "id": 2,
+    "titulo": "Macarrão ao Molho Branco",
+    "ingredientes": "Macarrão, Leite, Manteiga, Farinha, Queijo Ralado, Sal, Pimenta",
+    "modoPreparo": "Cozinhe o macarrão conforme as instruções da embalagem. Em uma panela, derreta a manteiga, adicione a farinha e cozinhe por 1-2 minutos. Gradualmente, adicione o leite, mexendo sempre, até obter um molho espesso. Adicione o queijo ralado, sal e pimenta a gosto. Misture o molho com o macarrão cozido e sirva."
+  }
+]
